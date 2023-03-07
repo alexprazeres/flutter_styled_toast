@@ -1089,7 +1089,7 @@ class StyledToastWidgetState extends State<_StyledToastWidget>
 
     MediaQueryData mediaQueryData = MediaQueryData.fromWindow(ui.window);
     w = Container(
-      padding: EdgeInsets.only(bottom: mediaQueryData.padding.bottom, top: 50),
+      padding: EdgeInsets.only(bottom: mediaQueryData.padding.bottom, top: 0),
       alignment: positionAlignment,
       child: w,
     );
